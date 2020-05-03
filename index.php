@@ -56,14 +56,6 @@ if($text1=="/start"){
 $tx = $message->text;
 $catid = $message->chat->id;
 $cturi = $message->chat->type;
-if($tx and ($cturi == "private")) {
-bot('sendmessage',[
-    'chat_id'=>$catid,
-    'text'=>"💡 Bot Yaratishni Hohlaysizmi?
-🤖 @GoPHPbot ga tashrif buyuring,
-📡 Kanalimiz: @PHP_OWN",
-    ]);
-}
 $doc=$message->document;
  $doc=$message->document;
 $doc_id=$sreplyd->file_id;       
