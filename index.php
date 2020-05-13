@@ -36,7 +36,7 @@ $sreply = $message->reply_to_message->text;  $sreplyd = $message->reply_to_messa
                 'selective' => true
             ]);
 if($text1=="/start"){  
-  $text = "Бот сизга фақат чегараланган хажда, яъни 20 мб дан кам хажмли файлларни тахрирлаб беради холос! ";
+  $text = "Бот сизга фақат чегараланган хажда, яъни 20 мб дан кам хажмли файлларни тахрирлаб беради холос! ER404";
   bot('sendmessage',[
     'chat_id'=>$chat_id,
     'text'=>$text,
