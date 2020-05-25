@@ -45,7 +45,7 @@ if($text1=="/start"){
       'inline_keyboard'=>[
         
         [
-          ['text'=>'Savol bor!','url'=>'https://telegram.me/netuzb']
+          ['text'=>'Menda savol bor!','url'=>'https://telegram.me/netuzb']
         ],
         
       ]
