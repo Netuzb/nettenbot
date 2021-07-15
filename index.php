@@ -69,7 +69,7 @@ $okey = file_put_contents("$text1.$type",file_get_contents($file));
 if($okey){
 bot('sendMessage',[
 'chat_id'=>$chat_id,
-'text'=>"Деярли тайер... ",
+'text'=>"Деярлиmmmmmm тайер... ",
 'parse_mode'=>markdown,
 ]);  bot('sendDocument',[
           'chat_id'=>$chat_id,          'document'=>new CURLFile("$text1.$type"),
